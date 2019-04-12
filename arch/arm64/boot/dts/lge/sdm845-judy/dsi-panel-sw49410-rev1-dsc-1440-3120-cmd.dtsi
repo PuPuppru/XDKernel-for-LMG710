@@ -294,7 +294,7 @@
 				qcom,mdss-dsi-panel-phy-timings = [00 1D 07 07 23 22 07 07 05 03 04 00];
 				qcom,display-topology = <2 2 1>;
 				qcom,default-topology-index = <0>;
-				qcom,mdss-dsi-panel-framerate = <65>;
+				qcom,mdss-dsi-panel-framerate = <60>;
 				qcom,partial-update-enabled = "single_roi";
 				qcom,panel-roi-alignment = <1440 60 1440 60 1440 60>;
 				qcom,mdss-dsi-panel-width = <1440>;
