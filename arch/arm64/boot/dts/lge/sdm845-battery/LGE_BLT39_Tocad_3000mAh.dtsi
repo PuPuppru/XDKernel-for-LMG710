@@ -5,16 +5,16 @@ qcom,LGE_BLT39_Tocad_3000mAh {
 	/* constant parameter */
 	lge,fg-cutoff-voltage = <3200>;
 	lge,fg-cutoff-current = <200>;
-	lge,fg-esr-tight-lt-filter-micro-pct = <30000>;
-	lge,fg-esr-broad-lt-filter-micro-pct = <30000>;
+	lge,fg-esr-tight-lt-filter-micro-pct = <249000>;
+	lge,fg-esr-broad-lt-filter-micro-pct = <249000>;
 
 	/* runtime changing parameter */
-	lge,ki-coeff-curr-lowth-dischg = <200>;
-	lge,ki-coeff-curr-highth-dischg = <1000>;
-	lge,ki-coeff-soc-dischg = <30 60 90>;
+	lge,ki-coeff-curr-lowth-dischg = <600>;
+	lge,ki-coeff-curr-highth-dischg = <1200>;
+	lge,ki-coeff-soc-dischg = <30 70 90>;
 	lge,ki-coeff-low-dischg = <500 500 500>;
-	lge,ki-coeff-med-dischg = <300 300 300>;
-	lge,ki-coeff-hi-dischg = <300 300 300>;
+	lge,ki-coeff-med-dischg = <2200 2200 2200>;
+	lge,ki-coeff-hi-dischg = <2500 2500 2500>;
 
 	/* #3354263_LGE_BLT39tocad_3000mAh_averaged_MasterSlave_Mar12th2018*/
 	qcom,max-voltage-uv = <4400000>;
